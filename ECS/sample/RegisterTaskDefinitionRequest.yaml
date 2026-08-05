@@ -30,7 +30,7 @@ containerDefinitions:
   memoryReservation: 512
   volumesFrom: []
   stopTimeout:
-  image: <+artifact.image>
+  image: "479370281431.dkr.ecr.us-east-1.amazonaws.com/todolist:latest"
   startTimeout:
   firelensConfiguration:
   dependsOn:
