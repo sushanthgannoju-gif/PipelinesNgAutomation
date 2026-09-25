@@ -1,5 +1,5 @@
 ipcMode:
-executionRoleArn: arn:aws:iam::479370281431:role/ecsTaskExecutionRole
+executionRoleArn: arn:aws:iam::806630305776:role/ecsTaskExecutionRole
 containerDefinitions:
 - dnsSearchDomains:
   environmentFiles:
@@ -30,7 +30,7 @@ containerDefinitions:
   memoryReservation: 512
   volumesFrom: []
   stopTimeout:
-  image: "479370281431.dkr.ecr.us-east-1.amazonaws.com/todolist:latest"
+  image: "806630305776.dkr.ecr.us-east-1.amazonaws.com/todolist:latest"
   startTimeout:
   firelensConfiguration:
   dependsOn:
@@ -50,7 +50,7 @@ containerDefinitions:
   name: nginx
 placementConstraints: []
 memory: '1024'
-taskRoleArn: arn:aws:iam::479370281431:role/ecsTaskExecutionRole
+taskRoleArn: arn:aws:iam::806630305776:role/ecsTaskExecutionRole
 family: taskauto
 pidMode:
 requiresCompatibilities:
