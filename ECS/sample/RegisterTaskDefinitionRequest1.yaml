@@ -61,4 +61,3 @@ cpu: '512'
 inferenceAccelerators:
 proxyConfiguration:
 volumes: []
-this is my task def can you refine this with my account number
