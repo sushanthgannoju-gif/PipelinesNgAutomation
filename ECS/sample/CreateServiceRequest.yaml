@@ -1,5 +1,5 @@
 launchType: FARGATE
-serviceName: "abhinav-ecs-service3"
+serviceName: "abhinav-ecs-service4"
 desiredCount: 1
 networkConfiguration:
   awsvpcConfiguration:
